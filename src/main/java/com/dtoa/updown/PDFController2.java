@@ -8,7 +8,6 @@ import com.itextpdf.text.pdf.BaseFont;
 import com.itextpdf.text.pdf.PdfPCell;
 import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
-import javafx.scene.control.Cell;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -21,8 +20,8 @@ import javax.servlet.http.HttpServletResponse;
  * @datatime 2019/3/7 14:46
  */
 @RestController
-@RequestMapping(value = "pdf")
-public class PDFController {
+@RequestMapping(value = "pdf2")
+public class PDFController2 {
 
     @RequestMapping(value = "down")
     public Object downPDF(HttpServletResponse response) {

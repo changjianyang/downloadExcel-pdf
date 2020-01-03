@@ -72,7 +72,6 @@ public class ExcelUtil {
 
 
         }
-
         // 7.设置sheet名称和单元格内容
         wb.setSheetName(0, fileName);
         try {
@@ -112,7 +111,7 @@ public class ExcelUtil {
      * 读取97-2003格式
      *
      * @param filePath 文件路径
-     * @throws java.io.IOException
+     * @throws IOException
      */
     public static List<Map> readExcel2003(String filePath) throws IOException {
         //返回结果集

@@ -36,7 +36,8 @@ public class ExcelController {
     }
 
     @RequestMapping(value = "down")
-    public void downExcel(HttpServletResponse response) {
+    public void downExcel(String age, HttpServletResponse response) {
+        System.out.println(age);
         String fileName = "示例";
         try {
             response.setHeader("Content-type", "application/vnd.ms-excel");
